@@ -59,10 +59,51 @@
   color: black;
 }
 
+/* banner */
+.banner-container {
+  display: flex;
+  align-items: center;
+  margin: 120px auto;
+  border: 1px solid steelblue;
+}
+
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 15px;
+  line-height: 75px;
+}
+
+#texti-fresh-flowers {
+  color: #e95a08;
+}
+
+#banner-description {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-right img {
+  display: block;
+  width: 100%;
+}
+
+.banner-left {
+}
+
 @media screen and (max-width: 575px) {
   #home,
   #shop,
   #aboutus {
     display: none;
   }
+
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+
+  .banner-title {
+    font-size: 1.1rem;
+  }
+
+  #banner;
 }
