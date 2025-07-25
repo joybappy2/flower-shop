@@ -110,6 +110,13 @@
   color: #e95a08;
 }
 
+.our-plants-description {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .plants-card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -172,5 +179,13 @@
 
   .banner-left {
     padding: 15px;
+  }
+
+  .plants-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .our-plants {
+    padding: 10px;
   }
 }
