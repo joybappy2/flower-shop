@@ -315,7 +315,7 @@
 }
 
 /* join section */
-.join{
+.join {
   background-image: url("./assets/news-letter-bg.png");
   height: 400px;
   color: white;
@@ -324,16 +324,23 @@
   justify-content: center;
 }
 
-.join h2{
+.join h2 {
   font-size: 3rem;
 }
 
-.join-content button{
+.join-content button {
   display: inline-block;
   margin-left: 0px;
 }
 
-.join-content input{
+.join-content input {
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 575px) {
