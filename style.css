@@ -206,6 +206,75 @@
   width: 100%;
 }
 
+/* latest deals */
+.latest-deals {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.ld-top {
+  text-align: center;
+}
+
+.ld-image-container {
+  /* background-color: tomato; */
+  display: flex;
+  gap: 28px;
+  height: 430px;
+}
+
+.ld-left .bloom {
+  flex: 1;
+  height: 50%;
+  /* background-color: bisque; */
+  background-image: url("./assets/deal-bloom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 22px;
+}
+
+.ld-left .ana {
+  flex: 1;
+  height: 50%;
+  background-image: url("./assets/deal-ana.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 22px;
+}
+
+.ld-left {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  width: 30%;
+}
+
+.ld-right {
+  color: white;
+  flex: 1;
+  background-image: url("./assets/deal-zabo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ana {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bloom {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 575px) {
   #home,
   #shop,
