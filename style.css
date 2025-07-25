@@ -158,6 +158,42 @@
   height: 50px;
 }
 
+/* flower & plants lover */
+.plant-lover {
+  border: 1px solid green;
+  margin-top: 200px;
+}
+
+.pl-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  align-items: center;
+}
+
+.pl-left img {
+  width: 100%;
+}
+
+.pl-right {
+  width: 540px;
+}
+
+.pl-right h2 {
+  font-size: 3.12rem;
+  font-weight: 700;
+}
+
+.pl-right ul {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.pl-right ul li {
+  margin-top: 20px;
+  font-size: 1.3rem;
+}
+
 @media screen and (max-width: 575px) {
   #home,
   #shop,
