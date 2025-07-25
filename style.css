@@ -214,10 +214,25 @@
 
 .ld-top {
   text-align: center;
+  width: 888px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.ld-titles {
+  font-size: 3.12rem;
+}
+
+#latest {
+  color: #e95a08;
+}
+
+.ld-description {
+  font-size: 1.37rem;
 }
 
 .ld-image-container {
-  /* background-color: tomato; */
+  border: 1px solid red;
   display: flex;
   gap: 28px;
   height: 430px;
@@ -275,6 +290,32 @@
   justify-content: center;
 }
 
+.image-text {
+  text-align: center;
+}
+
+.image-text .shop-now {
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.zabo-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.ba-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.ba-shop-now {
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 575px) {
   #home,
   #shop,
@@ -325,5 +366,43 @@
 
   .trusted-badge {
     display: none;
+  }
+
+  /* latest deals */
+  .ld-top {
+    width: 400px;
+    margin-bottom: 50px;
+  }
+
+  .ld-titles {
+    font-size: 1.5rem;
+  }
+
+  .ld-description {
+    font-size: 1rem;
+  }
+
+  .ld-image-container {
+    flex-direction: column;
+    padding: 10px;
+    height: 900px;
+  }
+
+  .ld-left {
+    width: 100%;
+    height: 584px;
+  }
+
+  .ana {
+    height: 292px;
+  }
+
+  .bloom {
+    height: 292px;
+  }
+
+  .ld-right {
+    border-radius: 14px;
+    height: 292px;
   }
 }
