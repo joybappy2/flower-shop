@@ -32,7 +32,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid steelblue;
 }
 
 .nav-container .nav-image figure img {
@@ -65,7 +64,6 @@
   align-items: end;
   justify-content: space-between;
   margin: 100px auto;
-  border: 1px solid steelblue;
 }
 
 .banner-title {
@@ -94,7 +92,6 @@
 
 /* our plants */
 .our-plants {
-  border: 1px solid green;
 }
 
 .our-plants-top {
@@ -160,7 +157,6 @@
 
 /* flower & plants lover */
 .plant-lover {
-  border: 1px solid green;
   margin-top: 200px;
   position: relative;
 }
@@ -232,7 +228,6 @@
 }
 
 .ld-image-container {
-  border: 1px solid red;
   display: flex;
   gap: 28px;
   height: 430px;
@@ -317,6 +312,28 @@
   font-size: 1rem;
   font-weight: 600;
   text-decoration: underline;
+}
+
+/* join section */
+.join{
+  background-image: url("./assets/news-letter-bg.png");
+  height: 400px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join h2{
+  font-size: 3rem;
+}
+
+.join-content button{
+  display: inline-block;
+  margin-left: 0px;
+}
+
+.join-content input{
 }
 
 @media screen and (max-width: 575px) {
