@@ -242,7 +242,8 @@
   flex: 1;
   height: 50%;
   /* background-color: bisque; */
-  background-image: url("./assets/deal-bloom.png");
+  background: rgba(0, 0, 0, 0.4) url("./assets/deal-bloom.png");
+  background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 22px;
@@ -251,7 +252,8 @@
 .ld-left .ana {
   flex: 1;
   height: 50%;
-  background-image: url("./assets/deal-ana.png");
+  background: rgba(0, 0, 0, 0.4) url("./assets/deal-ana.png");
+  background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 22px;
@@ -267,7 +269,8 @@
 .ld-right {
   color: white;
   flex: 1;
-  background-image: url("./assets/deal-zabo.png");
+  background: rgba(0, 0, 0, 0.4) url("./assets/deal-zabo.png");
+  background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 22px;
