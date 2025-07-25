@@ -237,10 +237,13 @@
     padding: 10px;
   }
 
+  .plant-lover {
+    margin-top: 50px;
+  }
+
   .pl-container {
     flex-direction: column;
     padding: 0 10px;
-    margin-top: ;
   }
 
   .pl-right {
@@ -249,5 +252,9 @@
 
   .pl-right h2 {
     font-size: 1.5rem;
+  }
+
+  .trusted-badge {
+    display: none;
   }
 }
