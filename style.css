@@ -161,7 +161,8 @@
 /* flower & plants lover */
 .plant-lover {
   border: 1px solid green;
-  margin-top: 100px;
+  margin-top: 200px;
+  position: relative;
 }
 
 .pl-container {
@@ -192,6 +193,17 @@
 .pl-right ul li {
   margin-top: 20px;
   font-size: 1.3rem;
+}
+
+.trusted-badge {
+  width: 286px;
+  position: absolute;
+  top: -20%;
+  left: 31%;
+}
+
+.trusted-badge img {
+  width: 100%;
 }
 
 @media screen and (max-width: 575px) {
