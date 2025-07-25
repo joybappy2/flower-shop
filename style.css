@@ -29,7 +29,6 @@
 /* navbar */
 .nav-container {
   padding: 20px;
-  border: 1px solid tomato;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,16 +61,16 @@
 /* banner */
 .banner-container {
   display: flex;
-  align-items: center;
+  align-items: end;
+  justify-content: space-between;
   margin: 120px auto;
-  border: 1px solid steelblue;
 }
 
 .banner-title {
   font-size: 4rem;
   font-weight: 700;
   margin-top: 15px;
-  line-height: 75px;
+  margin-bottom: 15px;
 }
 
 #texti-fresh-flowers {
@@ -88,6 +87,7 @@
 }
 
 .banner-left {
+  max-width: 570px;
 }
 
 @media screen and (max-width: 575px) {
@@ -99,11 +99,17 @@
 
   .banner-container {
     flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-top: 20px;
   }
 
   .banner-title {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    line-height: normal;
   }
 
-  #banner;
+  .banner-left {
+    padding: 15px;
+  }
 }
